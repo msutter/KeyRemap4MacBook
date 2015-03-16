@@ -31,6 +31,12 @@
       <autogen> __KeyToKey__ KeyCode::KEY_9, ModifierFlag::OPTION_R, KeyCode::BACKSLASH, ModifierFlag::OPTION_R </autogen>
     </item>
     <item>
+      <name>BackSlash (only Microsoft Remote Desktop)</name>
+      <identifier>private.backslash</identifier>
+      <only>Microsoft Remote Desktop</only>
+      <autogen> __KeyToKey__ KeyCode::KEY_7, ModifierFlag::SHIFT_L | ModifierFlag::OPTION_R, KeyCode::BACKQUOTE, ModifierFlag::OPTION_R </autogen>
+    </item>
+    <item>
       <name>line selection (only Microsoft Remote Desktop)</name>
       <identifier>private.selections</identifier>
       <only>Microsoft Remote Desktop</only>
@@ -38,15 +44,6 @@
       <autogen> __KeyToKey__ KeyCode::CURSOR_LEFT, ModifierFlag::CONTROL_L, KeyCode::CURSOR_LEFT, ModifierFlag::FN </autogen>
       <autogen> __KeyToKey__ KeyCode::CURSOR_UP, ModifierFlag::CONTROL_L, KeyCode::CURSOR_UP, ModifierFlag::FN </autogen>
       <autogen> __KeyToKey__ KeyCode::CURSOR_DOWN, ModifierFlag::CONTROL_L, KeyCode::CURSOR_DOWN, ModifierFlag::FN </autogen>
-    </item>
-    <item>
-      <name>Workspace move (only Microsoft Remote Desktop)</name>
-      <identifier>private.workspaces</identifier>
-      <only>Microsoft Remote Desktop</only>
-      <autogen> __KeyToKey__ KeyCode::CURSOR_RIGHT, ModifierFlag::CONTROL_L, KeyCode::CURSOR_RIGHT, ModifierFlag::COMMAND_L </autogen>
-      <autogen> __KeyToKey__ KeyCode::CURSOR_LEFT, ModifierFlag::CONTROL_L, KeyCode::CURSOR_LEFT, ModifierFlag::COMMAND_L </autogen>
-      <autogen> __KeyToKey__ KeyCode::CURSOR_UP, ModifierFlag::CONTROL_L, KeyCode::CURSOR_UP, ModifierFlag::COMMAND_L </autogen>
-      <autogen> __KeyToKey__ KeyCode::CURSOR_DOWN, ModifierFlag::COMMAND_R, KeyCode::CURSOR_DOWN, ModifierFlag::COMMAND_L </autogen>
     </item>
     <item>
       <name>Backquote(`) to KANA/EISUU (toggle) (except Microsoft Remote Desktop)</name>
