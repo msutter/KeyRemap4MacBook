@@ -76,6 +76,12 @@
       <only>Microsoft Remote Desktop</only>
       <autogen> __KeyToKey__ KeyCode::Y, ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L, KeyCode::Z, ModifierFlag::CONTROL_R </autogen>
     </item>
+    <item>
+      <name>Sublime2ISE auto indent (only Microsoft Remote Desktop)</name>
+      <identifier>private.sublime2iseAI</identifier>
+      <only>Microsoft Remote Desktop</only>
+      <autogen> __KeyToKey__ KeyCode::K, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L, KeyCode::I, ModifierFlag::OPTION_R </autogen>
+    </item>
   </item>
 </root>
 
