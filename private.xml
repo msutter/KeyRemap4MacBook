@@ -17,9 +17,9 @@
       <identifier>private.rotateCmdCtrlOptInMicrosoftRemoteDesktop</identifier>
       <only>Microsoft Remote Desktop</only>
       <autogen> __KeyToKey__ KeyCode::COMMAND_L, KeyCode::CONTROL_L </autogen>
-<!--       <autogen> __KeyToKey__ KeyCode::CONTROL_L, KeyCode::OPTION_L </autogen>
+      <autogen> __KeyToKey__ KeyCode::CONTROL_L, KeyCode::OPTION_L </autogen>
       <autogen> __KeyToKey__ KeyCode::OPTION_L, KeyCode::COMMAND_L </autogen>
- -->    </item>
+    </item>
     <item>
       <name>Brackets (only Microsoft Remote Desktop)</name>
       <identifier>private.brackets</identifier>
@@ -29,6 +29,13 @@
       <autogen> __KeyToKey__ KeyCode::KEY_6, ModifierFlag::OPTION_R, KeyCode::BRACKET_RIGHT, ModifierFlag::OPTION_R </autogen>
       <autogen> __KeyToKey__ KeyCode::KEY_8, ModifierFlag::OPTION_R, KeyCode::QUOTE, ModifierFlag::OPTION_R </autogen>
       <autogen> __KeyToKey__ KeyCode::KEY_9, ModifierFlag::OPTION_R, KeyCode::BACKSLASH, ModifierFlag::OPTION_R </autogen>
+    </item>
+    <item>
+      <name>At_and_Tild_key (only Microsoft Remote Desktop)</name>
+      <identifier>private.at_and_tild_key</identifier>
+      <only>Microsoft Remote Desktop</only>
+      <autogen> __KeyToKey__ KeyCode::N, ModifierFlag::OPTION_R, KeyCode::EQUAL, ModifierFlag::OPTION_R </autogen>
+      <autogen> __KeyToKey__ KeyCode::G, ModifierFlag::OPTION_R, KeyCode::KEY_2, ModifierFlag::OPTION_R </autogen>
     </item>
     <item>
       <name>BackSlash (only Microsoft Remote Desktop)</name>
