@@ -31,17 +31,11 @@
       <autogen> __KeyToKey__ KeyCode::KEY_9, ModifierFlag::OPTION_R, KeyCode::BACKSLASH, ModifierFlag::OPTION_R </autogen>
     </item>
     <item>
-      <name>At_and_Tild_key (only Microsoft Remote Desktop)</name>
-      <identifier>private.at_and_tild_key</identifier>
-      <only>Microsoft Remote Desktop</only>
-      <autogen> __KeyToKey__ KeyCode::N, ModifierFlag::OPTION_R, KeyCode::EQUAL, ModifierFlag::OPTION_R </autogen>
-      <autogen> __KeyToKey__ KeyCode::G, ModifierFlag::OPTION_R, KeyCode::KEY_2, ModifierFlag::OPTION_R </autogen>
-    </item>
-    <item>
       <name>BackSlash (only Microsoft Remote Desktop)</name>
       <identifier>private.backslash</identifier>
       <only>Microsoft Remote Desktop</only>
-      <autogen> __KeyToKey__ KeyCode::KEY_7, ModifierFlag::SHIFT_L | ModifierFlag::OPTION_R, KeyCode::BACKQUOTE, ModifierFlag::OPTION_R </autogen>
+      <autogen> __KeyToKey__ KeyCode::KEY_7, ModifierFlag::SHIFT_L | ModifierFlag::COMMAND_L, KeyCode::BACKQUOTE, ModifierFlag::OPTION_R </autogen>
+      <autogen> __KeyToKey__ KeyCode::KEY_7, ModifierFlag::OPTION_R, KeyCode::BACKQUOTE, ModifierFlag::OPTION_R </autogen>
     </item>
     <item>
       <name>line selection (only Microsoft Remote Desktop)</name>
@@ -51,6 +45,13 @@
       <autogen> __KeyToKey__ KeyCode::CURSOR_LEFT, ModifierFlag::CONTROL_L, KeyCode::CURSOR_LEFT, ModifierFlag::FN </autogen>
       <autogen> __KeyToKey__ KeyCode::CURSOR_UP, ModifierFlag::CONTROL_L, KeyCode::CURSOR_UP, ModifierFlag::FN </autogen>
       <autogen> __KeyToKey__ KeyCode::CURSOR_DOWN, ModifierFlag::CONTROL_L, KeyCode::CURSOR_DOWN, ModifierFlag::FN </autogen>
+    </item>
+    <item>
+      <name>At_and_Tild_key (only Microsoft Remote Desktop)</name>
+      <identifier>private.at_and_tild_key</identifier>
+      <only>Microsoft Remote Desktop</only>
+      <autogen> __KeyToKey__ KeyCode::N, ModifierFlag::OPTION_R, KeyCode::EQUAL, ModifierFlag::OPTION_R </autogen>
+      <autogen> __KeyToKey__ KeyCode::G, ModifierFlag::OPTION_R, KeyCode::KEY_2, ModifierFlag::OPTION_R </autogen>
     </item>
     <item>
       <name>Backquote(`) to KANA/EISUU (toggle) (except Microsoft Remote Desktop)</name>
